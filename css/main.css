@@ -1,0 +1,248 @@
+/*colours
+yellow: #FBE83B
+yellow-orange: #E48B2A
+orange: #F6B64B
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700|Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0.618rem;
+    line-height: 1.618;
+    background-color: #E5E5E5;
+}
+
+h1 {
+  text-shadow: 5px 5px #FBE83B;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: black;
+    text-decoration: underline;
+}
+
+
+h1, h2, h3 {
+    font-family: "Crimson Text", sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.masthead-bg {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    background-color: #FBE83B;
+    border: 1.5px solid black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.box {
+    margin: 1rem;
+    text-align: center;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+
+}
+
+figcaption {
+    margin: 0.5rem 0 0 0;
+    padding: 5px;
+    text-align: center;
+    border: 1.5px solid black;
+    background-color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1.5px solid black;
+}
+
+
+.bg-header li {
+    display: inline;
+}
+
+.bg-header li a {
+    display: block;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    border: 1.5px solid black;
+    background-color: white;
+}
+
+.bg-header li a:hover {
+  background-color: #E48B2A;
+
+}
+
+
+.bg-main .box p {
+    text-align: left;
+}
+
+.bg-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #F6B64B;
+  clear: both;
+  border-top: 1.5px solid black;
+}
+
+input {
+  width: 100%;
+}
+
+footer {
+  height: auto;
+}
+
+#message {
+  height: 100px;
+}
+
+@media screen and (min-width: 35rem) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    .box {
+        margin: 2rem;
+    }
+
+
+    .bg-header li a {
+        width: calc(50% - 1rem + 0.33rem);
+        float: left;
+        margin: 0 1rem 0 0;
+    }
+
+    .bg-header li:last-child a {
+        margin: 0;
+    }
+
+    figure {
+        width: 40%;
+        float: left;
+        margin: 0 1rem 0 0;
+    }
+
+input {
+  margin: 0;
+}
+
+    .footer-bg .social li a {
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+    }
+
+
+        .please {
+          width: calc(40% - 1rem);
+          float: left;
+        }
+
+        .work {
+          width: calc(60% - 1rem);
+          float: right;
+          margin-top: 0.25rem;
+        }
+
+        .wow {
+          width: calc(40% - 1rem);
+          float: left;
+          clear: both;
+          margin-bottom: 2rem;
+        }
+
+        form {
+          margin-bottom: 2rem;
+        }
+
+    .feedback {
+      float: left;
+      clear: both;
+    }
+
+
+
+}
+
+@media screen and (min-width: 80rem) {
+
+  .bg-header li a {
+      width: calc(20% - 1rem + 0.33rem);
+      float: left;
+      margin: 0 1rem 0 0;
+  }
+
+    .box {
+        font-size: 1.618rem;
+        margin: 2rem auto;
+        max-width: 60rem;
+    }
+
+    .bg-header .box, h2 {
+        text-align: left;
+    }
+
+    .bg-header .box a {
+        text-align: center;
+    }
+
+    .bg-header .nav {
+        width: 50%;
+        float: left;
+    }
+
+
+    .masthead-bg {
+        padding: 1% 0;
+    }
+
+    figure {
+        width: 40%;
+        margin: 0 2rem 1rem 0;
+    }
+
+    .half-1 {
+      width: calc(50% - 1rem);
+      float: left;
+      margin-right: 0.5rem;
+    }
+    .half-2 {
+      width: calc(50% - 1rem);
+      float: right;
+      margin-right: 0rem;
+    }
+
+    .work {
+      margin-top: 1rem;
+    }
+
+}
